@@ -19,13 +19,13 @@ variable "aws_region" {
 variable "key_name" {
   description = "Existing AWS EC2 key pair name."
   type        = string
-  default     = "rancher0529"
+  default     = "19_Oct_2025"
 }
 
 variable "ssh_private_key_path" {
   description = "Private key path written into generated Ansible inventory."
   type        = string
-  default     = "~/.ssh/rancher0529.pem"
+  default     = "~/.ssh/19_Oct_2025.pem"
 }
 
 variable "vpc_cidr" {
